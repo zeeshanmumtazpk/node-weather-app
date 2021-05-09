@@ -15,6 +15,7 @@ const forcast = (lat, lang, callback) => {
                 weather_descriptions: body.current.weather_descriptions[0],
                 temperature: body.current.temperature,
                 feelslike: body.current.feelslike,
+                humidity: body.current.humidity,
             });
         }
     });
